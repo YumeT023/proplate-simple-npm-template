@@ -1,0 +1,20 @@
+{
+  "id": "simple-npm",
+  "args": [
+    {
+      "key": "pkg_name",
+      "q_type": "Text",
+      "label": "Package name"
+    },
+    {
+      "key": "module_type",
+      "q_type": "Select",
+      "label": "Import module",
+      "options": ["commonjs", "module"]
+    }
+  ],
+  "dynamic_files": [
+    "index.js",
+    "package.json"
+  ]
+}
